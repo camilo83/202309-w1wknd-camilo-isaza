@@ -291,6 +291,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 .works .works_images .project_1,
 .works .works_images .project_2,
@@ -346,6 +347,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin-bottom: 2rem;
   }
   .works .works_images .project_1,
   .works .works_images .project_2,
@@ -373,6 +375,170 @@
   .works .works_images .project_3 p {
     text-align: left;
     margin-top: 0;
+  }
+}
+.referencies {
+  background-color: #f8d57e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.referencies header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-inline: 2rem;
+}
+.referencies header h2 {
+  font-size: 2.3rem;
+  font-style: Poppins;
+  text-align: center;
+  margin-bottom: 0;
+}
+.referencies header p {
+  font-size: 1.5rem;
+  font-style: Mulish;
+  text-align: center;
+}
+.referencies .customers {
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.referencies .customers .customer_x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 3rem;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+.referencies .customers .customer_x .customer_info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.referencies .customers .customer_x .customer_info img {
+  width: 80%;
+  align-items: center;
+  text-align: center;
+}
+.referencies .customers .customer_x .customer_info .clients_name {
+  font-size: 1.2rem;
+  font-style: Poppins;
+  align-items: center;
+  text-align: center;
+}
+.referencies .customers .customer_x .customer_info p {
+  font-size: 0.8rem;
+  font-style: Mulish;
+  align-items: center;
+  text-align: center;
+}
+.referencies .customers .customer_x .client_message {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.referencies .customers .customer_x .client_message p {
+  font-size: 1rem;
+  font-style: Mulish;
+  margin-bottom: 0;
+}
+.referencies .customers .customer_x .client_message img {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 450px) {
+  .referencies {
+    background-color: #f8d57e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .referencies header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 2rem;
+  }
+  .referencies header h2 {
+    font-size: 2.3rem;
+    font-style: Poppins;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .referencies header p {
+    font-size: 1.5rem;
+    font-style: Mulish;
+    text-align: center;
+  }
+  .referencies .customers {
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  .referencies .customers .customer_x {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    padding-inline: 1rem;
+    padding-block: 1.5rem;
+  }
+  .referencies .customers .customer_x .customer_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .referencies .customers .customer_x .customer_info img {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+  .referencies .customers .customer_x .customer_info .clients_name {
+    font-size: 1.2rem;
+    font-style: Poppins;
+    align-items: center;
+    text-align: center;
+  }
+  .referencies .customers .customer_x .customer_info p {
+    font-size: 0.8rem;
+    font-style: Mulish;
+    align-items: center;
+    text-align: center;
+  }
+  .referencies .customers .customer_x .client_message {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .referencies .customers .customer_x .client_message p {
+    font-size: 1rem;
+    font-style: Mulish;
+    margin-bottom: 0;
+  }
+  .referencies .customers .customer_x .client_message img {
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 0.5rem;
   }
 }
 
